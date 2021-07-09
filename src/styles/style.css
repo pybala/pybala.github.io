@@ -364,7 +364,7 @@ a:focus {
 .site-title {
 	text-indent: -5000px;
 	height: 128px;
-	background: transparent url(images/logo-bala-blog.png) no-repeat 0 0;
+	background: transparent url(../images/logo-bala-blog.png) no-repeat 0 0;
 }
 
 /* Left Main navigation */

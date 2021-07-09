@@ -1,0 +1,66 @@
+
+/* Mobile view styles */
+@media only screen and (max-width: 40em) {
+	.site-header {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100px;
+	}
+	.main-cont {
+		top: 110px;
+		left: 0;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+	.bk-footer {
+		display: none;
+	}
+	.content-inner {
+		padding: 0 20px;
+	}
+	.site-overlay  {
+		left: 0;
+	}
+	.header-logo {
+		display: inline-block;
+		width: 130px;
+		margin: 0 0 0 20px;
+	}
+	.site-title {
+    margin: 1px 0 0 0;
+		background-position: 0 -15px;
+	}
+	.socialCont {
+		position: absolute;
+		top: 40px;
+		right: 10px;
+	}
+	.left-nav {
+		position: absolute;
+		top: 15px;
+		right: 10px;
+		margin: 0;
+	}
+	.left-nav a, .leftnav-link {
+		display: inline-block;
+		font-weight: normal;
+		margin: 0;
+		font-size: 16px;
+		padding: 0 5px 0 10px;
+		border-left: 1px solid #ccc !important;
+		line-height: 15px;
+	}
+  .nav-tagcloud {
+    display: inline-block;
+  }
+	.left-nav a:first-child {
+		border: none !important;
+	}
+	.left-nav a:hover, .left-nav a:visited {
+		border-left: 1px solid #ccc !important;
+	}
+	.left-nav a:first-child:hover, .left-nav a:first-child:visited {
+		border: none !important;
+	}
+}

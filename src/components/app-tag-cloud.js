@@ -26,7 +26,7 @@ const AppTagCloud = () => {
     }
 
     return (
-      <div>
+      <div className="nav-tagcloud">
         <span onClick={showTags} className="leftnav-link">Tags</span>
         <div className="tagcloud-wrapper" style={{display: active ? 'block' : 'none' }}>
             <span onClick={hideTags} class="tagcloud-close">×</span>

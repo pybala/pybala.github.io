@@ -28,7 +28,7 @@
 		margin: 0 0 0 20px;
 	}
 	.site-title {
-    margin: 1px 0 0 0;
+    	margin: 1px 0 0 0;
 		background-position: 0 -15px;
 	}
 	.socialCont {
@@ -51,9 +51,9 @@
 		border-left: 1px solid #ccc !important;
 		line-height: 15px;
 	}
-  .nav-tagcloud {
-    display: inline-block;
-  }
+	.nav-tagcloud {
+		display: inline-block;
+	}
 	.left-nav a:first-child {
 		border: none !important;
 	}

@@ -406,9 +406,11 @@ a:focus {
 .bk-footer a:hover {
   color: #FFC7B4;
 }
-.footerLink {
+.footer-link {
   display: block;
-  margin: 5px 2px 0 15px;
+  margin: 5px 2px 0 0;
+  padding-left: 18px;
+  background: transparent url(../images/clenched-fist-16.png) no-repeat 0 0;
 }
 
 /* Home page */

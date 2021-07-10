@@ -373,9 +373,10 @@ a:focus {
 }
 .left-nav a, .left-nav a:visited, .leftnav-link {
 	display: block;
-	font-size: 20px;
+	font-size: 1.2rem;
+  font-weight: 500;
 	color: #f0f0f0;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 	outline: 0 !important;
 	border: none !important;
   text-decoration: none;
@@ -411,6 +412,9 @@ a:focus {
   margin: 5px 2px 0 0;
   padding-left: 18px;
   background: transparent url(../images/clenched-fist-16.png) no-repeat 0 0;
+}
+.footer-link a {
+  margin-left: 3px;
 }
 
 /* Home page */
@@ -478,4 +482,37 @@ a:focus {
 }
 .tags-main header span {
   color: #dba605;
+}
+
+/* Social Links */
+.social-cont {
+	margin: 10px 0 0 64px;
+}
+.social-cont span {
+	display: inline-block;
+	width: 1px;
+	height: 22px;
+	border-right: 1px solid #f0f0f0;
+	margin: 0 8px 0 8px;
+	vertical-align: top;
+	margin-top: 6px;
+}
+.bk-social-icon {
+	display: inline-block;
+	width: 30px;
+	height: 26px;
+	vertical-align: top;
+  text-decoration: none;
+}
+.bk-social-icon:hover {
+	text-decoration: none;
+	outline: 0;
+	border: none;
+}
+.social-cont .github-icon {
+	background: transparent url(../images/github-icon.png) no-repeat 0 0;
+	margin-top: 3px;
+}
+.social-cont .linkedin-icon {
+	background: transparent url(../images/linkedin-icon.png) no-repeat 0 0;
 }

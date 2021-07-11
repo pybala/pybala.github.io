@@ -35,7 +35,7 @@ const AppCategoryCloud = () => {
               maxSize={35}
               tags={tagsData}
               className="tagcloud-cont"
-              onClick={tag => navigate(`/tags/${tag.value}`)}
+              onClick={category => navigate(`/categories/${category.value}`)}
             />
         </div>
       </div>

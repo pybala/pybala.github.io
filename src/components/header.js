@@ -18,7 +18,7 @@ const Header = ({ location, title, children }) => {
             <div class="social-cont">
                 <a href="//github.com/pybala" className="bk-social-icon github-icon" title="GitHub" target="_blank" rel="noreferrer">&nbsp;</a>
                 <span></span>
-                <a href="//in.linkedin.com/in/kumarbalap" className="bk-social-icon linkedin-icon" title="LinkedIn" target="_blank" rel="noreferrer">&nbsp;</a>
+                <a href="//in.linkedin.com/in/balakumarp" className="bk-social-icon linkedin-icon" title="LinkedIn" target="_blank" rel="noreferrer">&nbsp;</a>
             </div>            
             <nav className="left-nav">
                 <Link to="/">Home</Link>

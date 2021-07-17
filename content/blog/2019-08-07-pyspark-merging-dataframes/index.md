@@ -1,6 +1,7 @@
 ---
 title: "PySpark - Merging dataframes"
 date: "2019-08-07"
+canonical: "https://balakumar.net.in/pyspark-merging-dataframes/"
 categories: 
   - "bigdata"
   - "pyspark"

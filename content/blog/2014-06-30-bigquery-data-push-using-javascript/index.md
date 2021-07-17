@@ -1,6 +1,7 @@
 ---
 title: "BigQuery data push using Javascript"
 date: "2014-06-30"
+canonical: "https://balakumar.net.in/bigquery-data-push-using-javascript/"
 categories: 
   - "bigquery-2"
 tags: 

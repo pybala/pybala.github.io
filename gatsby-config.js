@@ -10,7 +10,7 @@ module.exports = {
       summary: `Balakumar's personal techincal blog.`,
     },
     description: `Balakumar's personal techincal blog.`,
-    siteUrl: `https://balakumar.net.in/`,
+    siteUrl: `https://balakumar.net.in`,
     social: {
       linkedin: `balakumarp`,
     },
@@ -127,6 +127,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://balakumar.net.in`,
+      },
+    },    
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

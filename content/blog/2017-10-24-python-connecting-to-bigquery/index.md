@@ -1,6 +1,7 @@
 ---
 title: "Python - connecting to BigQuery"
 date: "2017-10-24"
+canonical: "https://balakumar.net.in/python-connecting-to-bigquery/"
 categories: 
   - "bigquery-2"
   - "python"

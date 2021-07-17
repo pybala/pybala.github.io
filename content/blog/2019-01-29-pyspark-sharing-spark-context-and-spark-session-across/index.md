@@ -1,6 +1,7 @@
 ---
 title: "PySpark - Sharing Spark context and Spark session across"
 date: "2019-01-29"
+canonical: "https://balakumar.net.in/pyspark-sharing-spark-context-and-spark-session-across/"
 categories: 
   - "bigdata"
   - "pyspark"

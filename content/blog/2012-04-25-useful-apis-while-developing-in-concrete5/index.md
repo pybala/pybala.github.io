@@ -1,6 +1,7 @@
 ---
 title: "Useful APIs while developing in Concrete5"
 date: "2012-04-25"
+canonical: "https://balakumar.net.in/useful-apis-while-developing-in-concrete5/"
 categories: 
   - "concrete5"
 tags: 

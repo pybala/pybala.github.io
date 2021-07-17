@@ -1,6 +1,7 @@
 ---
 title: "Python - BigQuery utility script"
 date: "2017-10-24"
+canonical: "https://balakumar.net.in/python-bigquery-utility-script/"
 categories: 
   - "bigquery-2"
   - "python"

@@ -1,6 +1,7 @@
 ---
 title: "Laravel - scalable directory structure"
 date: "2016-05-26"
+canonical: "https://balakumar.net.in/laravel-scalable-directory-structure/"
 categories: 
   - "laravel"
   - "php"

@@ -6,11 +6,11 @@
   "author": "Balakumar Parameshwaran <youcompleteit@gmail.com>",
   "dependencies": {
     "dotenv": "^8.6.0",
-    "gatsby": "^5.8.0",
+    "gatsby": "^5.8.1",
     "gatsby-plugin-feed": "^5.8.0",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.8.0",
-    "gatsby-plugin-sharp": "^5.8.0",
+    "gatsby-plugin-sharp": "^5.8.1",
     "gatsby-remark-copy-linked-files": "^5.22.0",
     "gatsby-remark-images": "^7.8.0",
     "gatsby-remark-prismjs": "^7.8.0",

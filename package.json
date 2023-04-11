@@ -35,6 +35,10 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "homepage": "https://balakumar.net.in",
   "keywords": [
     "technical blog", "gatsby", "github blog"

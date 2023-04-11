@@ -18,7 +18,7 @@ My requirement is to serve data from HDFS **parquet** for any kind of requests, 
 
 As initial spark reading is costlier, the idea is to create **Dataframe** or **temp tables** by reading all different parquet or any other data in to spark session upfront and of course we have to deal with updating the data as well (we will talk about this later).
 
-### **Simple example:**
+### Simple example:
 
 I had a doubt about how setting/updating the data in the shared session reflects or not wherever its shared.
 

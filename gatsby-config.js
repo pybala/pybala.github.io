@@ -110,6 +110,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
+            title: "Blog RSS feed"
           },
         ],
       },
@@ -132,16 +133,19 @@ module.exports = {
       options: {
         siteUrl: `https://balakumar.net.in`,
       },
-    },    
+    },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: process.env.GA_TRACKING_ID,
+        trackingIds: [
+          process.env.GA_TRACKING_ID
+        ],
       },
-    },    
+    },
+
   ],
 }

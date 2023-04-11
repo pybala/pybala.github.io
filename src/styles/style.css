@@ -27,24 +27,27 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: "Open Sans", Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+  --fontFamily-sans: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --fontFamily-sansheading: "Open Sans", Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";    
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-sans);
-  --font-heading: var(--fontFamily-sans);
+  --font-heading: var(--fontFamily-sansheading);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;
   --fontWeight-bold: 700;
   --fontWeight-extrabold: 800;
   --fontWeight-black: 900;
-  --fontSize-root: 16px;
+  --fontSize-root: 17px;
   --lineHeight-none: 1;
   --lineHeight-tight: 1.1;
   --lineHeight-normal: 1.5;
   --lineHeight-relaxed: 1.625;
+  --lineHeight-bkpara: 1.8;
   /* 1.200 Minor Third Type Scale */
   --fontSize-0: 0.833rem;
   --fontSize-1: 1rem;
@@ -55,9 +58,9 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
-  --color-text: #333333;
+  --color-text: #353535;
   --color-text-light: #4f5969;
-  --color-heading: #555555;
+  --color-heading: #353535;
   --color-heading-black: black;
   --color-accent: #d1dce5;
 }
@@ -106,17 +109,17 @@ h2, h3, h4, h5, h6 {
   color: var(--color-heading);
 }
 h1 {
-  font-weight: var(--fontWeight-bold);
-  font-size: var(--fontSize-6);
-}
-h2 {
+  font-weight: var(--fontWeight-medium);
   font-size: var(--fontSize-5);
 }
-h3 {
+h2 {
   font-size: var(--fontSize-4);
 }
-h4 {
+h3 {
   font-size: var(--fontSize-3);
+}
+h4 {
+  font-size: var(--fontSize-2);
 }
 h5 {
   font-size: var(--fontSize-2);
@@ -142,11 +145,12 @@ h6 > a {
 /* Prose */
 
 p {
-  line-height: var(--lineHeight-relaxed);
+  line-height: var(--lineHeight-bkpara);
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
   margin: var(--spacing-0) var(--spacing-0) var(--spacing-5) var(--spacing-0);
   padding: var(--spacing-0);
+  letter-spacing: 0.003em;
 }
 
 ul,
@@ -163,6 +167,13 @@ ul li,
 ol li {
   padding-left: var(--spacing-0);
   margin-bottom: calc(var(--spacing-6) / 2);
+}
+
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  padding-top: var(--spacing-4);
 }
 
 li > p {
@@ -184,7 +195,7 @@ blockquote {
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
   border-left: var(--spacing-1) solid #C1965F;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-1);
   font-style: italic;
   margin-bottom: var(--spacing-8);
 }
@@ -369,12 +380,13 @@ a:focus {
 
 /* Left Main navigation */
 .left-nav {
+  font-family: var(--fontFamily-sans);
 	margin: 70px 0 0 60px;
 }
 .left-nav a, .left-nav a:visited, .leftnav-link {
 	display: block;
 	font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 400;
 	color: #f0f0f0;
 	margin-bottom: 12px;
 	outline: 0 !important;
@@ -433,7 +445,7 @@ a:focus {
 
 /* Blog details page and content */
 .blog-post header > h1 {
-  font-weight: var(--fontWeight-semibold);
+  font-weight: var(--fontWeight-medium);
   font-size: var(--fontSize-6);
 }
 .blog-post header > p {
@@ -466,9 +478,9 @@ a:focus {
 .tagcloud-close {
 	position: absolute;
 	top: -13px;
-	right: 10px;
-	font-size: 45px;
-	color: #999;
+	right: 7px;
+	font-size: 35px;
+	color: #c30;
 	cursor: pointer;
 }
 .tagcloud-cont .tag-cloud-tag {

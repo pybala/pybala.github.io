@@ -4,7 +4,7 @@ export function TagList() {
   const data = useStaticQuery(graphql`
       query TagsQuery {
           allMarkdownRemark(limit: 1000) {
-              group(field: frontmatter___tags) {
+              group(field: {frontmatter: {tags: SELECT}}) {
                   value:fieldValue
                   count:totalCount
               }

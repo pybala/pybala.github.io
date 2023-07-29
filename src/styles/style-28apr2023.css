@@ -51,12 +51,12 @@
   /* 1.200 Minor Third Type Scale */
   --fontSize-0: 0.833rem;
   --fontSize-1: 1rem;
-  --fontSize-2: 1.1rem;
-  --fontSize-3: 1.3rem;
-  --fontSize-4: 1.6rem;
-  --fontSize-5: 1.8rem;
-  --fontSize-6: 2.1rem;
-  --fontSize-7: 2.3rem;
+  --fontSize-2: 1.2rem;
+  --fontSize-3: 1.44rem;
+  --fontSize-4: 1.728rem;
+  --fontSize-5: 2.074rem;
+  --fontSize-6: 2.488rem;
+  --fontSize-7: 2.986rem;
   --color-primary: #005b99;
   --color-text: #353535;
   --color-text-light: #4f5969;
@@ -110,16 +110,16 @@ h2, h3, h4, h5, h6 {
 }
 h1 {
   font-weight: var(--fontWeight-medium);
-  font-size: var(--fontSize-7);
-}
-h2 {
   font-size: var(--fontSize-5);
 }
-h3 {
+h2 {
   font-size: var(--fontSize-4);
 }
-h4 {
+h3 {
   font-size: var(--fontSize-3);
+}
+h4 {
+  font-size: var(--fontSize-2);
 }
 h5 {
   font-size: var(--fontSize-2);
@@ -326,7 +326,7 @@ a:focus {
   height: 100%;
   width: 100%;
   position: fixed;
-  z-index: 0;
+  z-index: 99;
   top: 0;
   left: 0;
   background-color: rgba(0,0,0, 0.3);
@@ -336,10 +336,17 @@ a:focus {
 
 /* Content */
 .global-wrapper {
+  margin: var(--spacing-0) auto;
+  max-width: var(--maxWidth-wrapper);
+  padding: var(--spacing-10) var(--spacing-5);
 }
 
 .main-cont {
-  margin-left: 240px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 250px;
+  right: 0;
 }
 .main-scrollable {
   overflow-y: auto;
@@ -350,15 +357,13 @@ a:focus {
 	margin: 50px 0 0;
 }
 
-/* Header - currently Sidebar */
+/* Header */
 .site-header {
-  position: fixed;
-  z-index: 1;
+  position: absolute;
   top: 0;
-  left: 0;  
   bottom: 0;
-  width: 230px;
-  height: 100%;
+  left: 0;
+  width: 250px;
   background-color: #0071A6;
 }
 .header-cont {
@@ -399,8 +404,7 @@ a:focus {
 
 /* Footer */
 .bk-footer {
-	position: fixed;
-  z-index: 2;
+	position: absolute;
 	bottom: 25px;
 	left: 25px;
 	font-size: 14px;
@@ -426,10 +430,6 @@ a:focus {
 }
 
 /* Home page */
-.blog-home-list {
-  margin-left: 0;
-  padding-left: 0;
-}
 .blog-home-list li {
   margin-bottom: 2.3rem;
 }
@@ -439,7 +439,7 @@ a:focus {
 }
 .post-list-item small {
   color: #dba605;
-  font-size: 100%;
+  font-size: 90%;
   font-weight: 400;
 }
 

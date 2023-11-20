@@ -4,11 +4,11 @@ date: "2023-11-18"
 lastModDate: "2023-11-18"
 canonical: "https://balakumar.net.in/databricks-and-dbt-part-1/"
 categories: 
-  - "Data Engineering"
-  - "Big Data"
+  - "data_engineering"
+  - "big_data"
 tags: 
-  - "DBT"
-  - "Databricks"
+  - "dbt"
+  - "databricks"
 ---
 
 DBT (Data Build Tool) is a command line data transformation tool, which enables data analysts and engineers to transform data in their warehouses more effectively. 

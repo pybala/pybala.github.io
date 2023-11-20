@@ -3,10 +3,10 @@ title: "Creating a Custom Multifield Component in Adobe CQ"
 date: "2013-12-24"
 canonical: "https://balakumar.net.in/creating-a-custom-multifield-component-in-adobe-cq/"
 categories: 
-  - "WEB"
+  - "web"
 tags: 
-  - "Adobe-CQ"
-  - "AEM"
+  - "adobe-cq"
+  - "aem"
 ---
 
 ### Structure and Properties

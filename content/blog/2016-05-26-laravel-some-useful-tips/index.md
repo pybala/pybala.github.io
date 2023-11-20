@@ -3,10 +3,10 @@ title: "Laravel - some useful tips"
 date: "2016-05-26"
 canonical: "https://balakumar.net.in/laravel-some-useful-tips/"
 categories: 
-  - "WEB"
+  - "web"
 tags: 
-  - "Laravel"
-  - "PHP"
+  - "laravel"
+  - "php"
 ---
 
 ## php artisan migrate not working

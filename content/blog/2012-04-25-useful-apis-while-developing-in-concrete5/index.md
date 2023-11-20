@@ -3,11 +3,11 @@ title: "Useful APIs while developing in Concrete5"
 date: "2012-04-25"
 canonical: "https://balakumar.net.in/useful-apis-while-developing-in-concrete5/"
 categories: 
-  - "WEB"
-  - "CMS"
+  - "web"
+  - "cms"
 tags: 
-  - "PHP"
-  - "Concrete5"
+  - "php"
+  - "concrete5"
 ---
 
 #### User

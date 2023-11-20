@@ -3,10 +3,10 @@ title: "Sharing component values across all the pages in Adobe CQ"
 date: "2013-12-24"
 canonical: "https://balakumar.net.in/sharing-component-values-acroll-all-the-pages-in-adobe-cq/"
 categories: 
-  - "WEB"
+  - "web"
 tags: 
-  - "Adobe-CQ"
-  - "AEM"
+  - "adobe-cq"
+  - "aem"
 ---
 
 Basically the component properties are stored per page.

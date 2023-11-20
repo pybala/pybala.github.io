@@ -3,10 +3,10 @@ title: "Laravel - scalable directory structure"
 date: "2016-05-26"
 canonical: "https://balakumar.net.in/laravel-scalable-directory-structure/"
 categories: 
-  - "WEB"
+  - "web"
 tags: 
-  - "Laravel"
-  - "PHP"
+  - "laravel"
+  - "php"
 ---
 
 Everyone will have there own way of defining the structure of an application, and whatever I'm going to discuss here is just my way of implementing Laravel for my application.

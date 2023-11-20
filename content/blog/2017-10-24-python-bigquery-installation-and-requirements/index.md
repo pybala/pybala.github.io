@@ -3,10 +3,10 @@ title: "Python - BigQuery installation and requirements"
 date: "2017-10-24"
 canonical: "https://balakumar.net.in/python-bigquery-installation-and-requirements/"
 categories: 
-  - "Data Engineering"
+  - "data_engineering"
 tags: 
-  - "BigQuery"
-  - "Python"
+  - "bigquery"
+  - "python"
 ---
 
 ## Installing pip

@@ -3,11 +3,11 @@ title: "Custom login for phpBB and SSO integration"
 date: "2012-05-07"
 canonical: "https://balakumar.net.in/custom-login-for-phpbb-and-sso-integration/"
 categories: 
-  - "WEB"
-  - "Forums"
+  - "web"
+  - "forums"
 tags: 
-  - "PHP"
-  - "PHPBB"
+  - "php"
+  - "phpbb"
 ---
 
 PhpBB has the concept of adding custom authentication plugin.

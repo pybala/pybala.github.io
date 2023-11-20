@@ -5,6 +5,7 @@ export function TagList() {
       query TagsQuery {
           allMarkdownRemark(limit: 1000) {
               group(field: {frontmatter: {tags: SELECT}}) {
+                  key:fieldValue
                   value:fieldValue
                   count:totalCount
               }

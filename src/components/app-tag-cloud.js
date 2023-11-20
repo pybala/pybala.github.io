@@ -20,10 +20,18 @@ const AppTagCloud = () => {
       document.querySelector(".site-overlay").style.display = "block";
       setActive(true);
     }
-    const hideTags = () => {
+    const hideTags = () => {  
       document.querySelector(".site-overlay").style.display = "none";
       setActive(false);
     }
+
+    const customRenderer = (tag, size, color) => {
+      return (
+        <span key={tag.value} style={{ color }} className={`tag-${size}`}>
+          {tag.value}
+        </span>
+      )
+    }    
 
     return (
       <div className="nav-tagcloud">
@@ -35,6 +43,7 @@ const AppTagCloud = () => {
               maxSize={35}
               tags={tagsData}
               className="tagcloud-cont"
+              // renderer={customRenderer}
               onClick={tag => navigate(`/tags/${tag.value}`)}
             />
         </div>

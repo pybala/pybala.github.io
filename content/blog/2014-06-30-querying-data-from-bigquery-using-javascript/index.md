@@ -3,11 +3,11 @@ title: "Querying data from BigQuery using client side Javascript"
 date: "2014-06-30"
 canonical: "https://balakumar.net.in/querying-data-from-bigquery-using-javascript/"
 categories: 
-  - "WEB"
-  - "Data Engineering"
+  - "web"
+  - "data_engineering"
 tags: 
-  - "BigQuery"
-  - "Javascript"
+  - "bigquery"
+  - "javascript"
 ---
 
 Add the following libraries

@@ -3,11 +3,11 @@ title: "BigQuery data push using Javascript"
 date: "2014-06-30"
 canonical: "https://balakumar.net.in/bigquery-data-push-using-javascript/"
 categories: 
-  - "WEB"
-  - "Data Engineering"
+  - "web"
+  - "data_engineering"
 tags: 
-  - "BigQuery"
-  - "Javascript"
+  - "bigquery"
+  - "javascript"
 ---
 
 ```js

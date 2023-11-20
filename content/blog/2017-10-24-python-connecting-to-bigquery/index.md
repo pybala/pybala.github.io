@@ -3,10 +3,10 @@ title: "Python - connecting to BigQuery"
 date: "2017-10-24"
 canonical: "https://balakumar.net.in/python-connecting-to-bigquery/"
 categories: 
-  - "Data Engineering"
+  - "data_engineering"
 tags: 
-  - "BigQuery"
-  - "Python"
+  - "bigquery"
+  - "python"
 ---
 
 Please refer the below article for installing Bigquery and its dependencies.

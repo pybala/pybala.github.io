@@ -52,11 +52,11 @@
   --fontSize-0: 0.833rem;
   --fontSize-1: 0.96rem;
   --fontSize-2: 1rem;
-  --fontSize-3: 1.2rem;
-  --fontSize-4: 1.4rem;
-  --fontSize-5: 1.6rem;
-  --fontSize-6: 1.8rem;
-  --fontSize-7: 2rem;
+  --fontSize-3: 1.1rem;
+  --fontSize-4: 1.2rem;
+  --fontSize-5: 1.3rem;
+  --fontSize-6: 1.5rem;
+  --fontSize-7: 1.7rem;
   --color-primary: #005b99;
   --color-text: #353535;
   --color-text-light: #4f5969;
@@ -441,7 +441,7 @@ a:focus {
 /* Blog details page and content */
 .blog-post header > h1 {
   font-weight: var(--fontWeight-medium);
-  font-size: var(--fontSize-5);
+  font-size: var(--fontSize-6);
 }
 .blog-post header > p {
   color: #dba605;

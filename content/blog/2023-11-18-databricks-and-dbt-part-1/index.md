@@ -16,7 +16,7 @@ It allows you to test business logic, ensuring data quality, and fix issues proa
 
 Here I'm using the Databricks service from Azure, and the DBT commands are ran from local (can be part of Databricks Workflow or any other orchestrator)
 
-### Prerequisites
+## Prerequisites
 
 - Python (> 3.6)
 - Databricks cloud
@@ -29,7 +29,7 @@ The versions I used for this POC are
 
 The current latest version of dbt-databricks (v3.0.0) needs min Python version as 3.8, as its dependant library **databricks-sql-connector** requires the mentioned version.
 
-### Installation and initial setup
+## Installation and initial setup
 
 #### Install "dbt-databricks" python library
 
@@ -80,7 +80,7 @@ DBT will search for profiles.yml in the following order.
 
 > **Note:** No need of profiles.yml for **dbt Cloud**
 
-### Project structure and config files
+## Project structure and config files
 
 ```shell
  databricks_poc
@@ -131,7 +131,7 @@ clean-targets:
   - "dbt_packages"
 ```
 
-### How DBT seed works
+## How DBT seed works
 
 I have created following schemas (databases) in Databricks
 
@@ -227,7 +227,7 @@ dbt seed
 ![](./images/databricks-catalog-1.png)
 
 
-### How DBT model works
+## How DBT model works
 
 Data modeling with dbt is a way of transforming data for business intelligence or downstream applications in a modular approach.
  - We can write models using SQL and Python.

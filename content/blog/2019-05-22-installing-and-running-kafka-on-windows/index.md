@@ -3,8 +3,8 @@ title: "Installing and running KAFKA on windows"
 date: "2019-05-22"
 canonical: "https://balakumar.net.in/installing-and-running-kafka-on-windows/"
 categories: 
-  - "data_engineering"
-  - "big_data"
+  - "data-engineering"
+  - "big-data"
   - "installation"
 tags: 
   - "kafka"

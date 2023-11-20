@@ -4,8 +4,8 @@ date: "2023-11-18"
 lastModDate: "2023-11-18"
 canonical: "https://balakumar.net.in/databricks-and-dbt-part-1/"
 categories: 
-  - "data_engineering"
-  - "big_data"
+  - "data-engineering"
+  - "big-data"
 tags: 
   - "dbt"
   - "databricks"

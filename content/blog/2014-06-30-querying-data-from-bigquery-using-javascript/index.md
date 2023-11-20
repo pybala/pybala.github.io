@@ -4,7 +4,7 @@ date: "2014-06-30"
 canonical: "https://balakumar.net.in/querying-data-from-bigquery-using-javascript/"
 categories: 
   - "web"
-  - "data_engineering"
+  - "data-engineering"
 tags: 
   - "bigquery"
   - "javascript"

@@ -47,16 +47,16 @@
   --lineHeight-tight: 1.1;
   --lineHeight-normal: 1.5;
   --lineHeight-relaxed: 1.625;
-  --lineHeight-bkpara: 1.8;
+  --lineHeight-bkpara: 1.5;
   /* 1.200 Minor Third Type Scale */
   --fontSize-0: 0.833rem;
-  --fontSize-1: 1rem;
-  --fontSize-2: 1.1rem;
-  --fontSize-3: 1.3rem;
-  --fontSize-4: 1.6rem;
-  --fontSize-5: 1.8rem;
-  --fontSize-6: 2.1rem;
-  --fontSize-7: 2.3rem;
+  --fontSize-1: 0.96rem;
+  --fontSize-2: 1rem;
+  --fontSize-3: 1.2rem;
+  --fontSize-4: 1.4rem;
+  --fontSize-5: 1.6rem;
+  --fontSize-6: 1.8rem;
+  --fontSize-7: 2rem;
   --color-primary: #005b99;
   --color-text: #353535;
   --color-text-light: #4f5969;
@@ -99,7 +99,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  margin-top: var(--spacing-10);
+  margin-top: var(--spacing-8);
   margin-bottom: var(--spacing-4);
   line-height: var(--lineHeight-tight);
   letter-spacing: -0.025em;
@@ -110,7 +110,7 @@ h2, h3, h4, h5, h6 {
 }
 h1 {
   font-weight: var(--fontWeight-medium);
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-6);
 }
 h2 {
   font-size: var(--fontSize-5);
@@ -148,7 +148,7 @@ p {
   line-height: var(--lineHeight-bkpara);
   --baseline-multiplier: 0.179;
   --x-height-multiplier: 0.35;
-  margin: var(--spacing-0) var(--spacing-0) var(--spacing-5) var(--spacing-0);
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-4) var(--spacing-0);
   padding: var(--spacing-0);
   letter-spacing: 0.003em;
 }
@@ -166,15 +166,10 @@ ol {
 ul li,
 ol li {
   padding-left: var(--spacing-0);
-  margin-bottom: calc(var(--spacing-6) / 2);
+  margin-bottom: calc(var(--spacing-4) / 2);
 }
 
-ul ul,
-ul ol,
-ol ul,
-ol ol {
-  padding-top: var(--spacing-4);
-}
+
 
 li > p {
   display: inline-block;
@@ -187,7 +182,7 @@ li *:last-child {
 
 li > ul {
   margin-left: var(--spacing-8);
-  margin-top: calc(var(--spacing-8) / 2);
+  margin-top: calc(var(--spacing-4) / 2);
 }
 
 blockquote {
@@ -301,7 +296,7 @@ a:focus {
 }
 
 .gatsby-highlight {
-  margin-bottom: var(--spacing-8);
+  margin-bottom: var(--spacing-6);
 }
 
 /* Media queries */
@@ -446,7 +441,7 @@ a:focus {
 /* Blog details page and content */
 .blog-post header > h1 {
   font-weight: var(--fontWeight-medium);
-  font-size: var(--fontSize-6);
+  font-size: var(--fontSize-5);
 }
 .blog-post header > p {
   color: #dba605;
@@ -456,9 +451,6 @@ a:focus {
 .gatsby-resp-image-wrapper {
   margin-left: 0 !important;
   text-align: left;
-}
-.blog-post section ul {
-  margin-top: -10px;
 }
 
 /* tag cloud */

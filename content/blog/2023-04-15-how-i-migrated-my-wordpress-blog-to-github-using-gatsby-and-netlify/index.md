@@ -4,12 +4,15 @@ date: "2023-04-15"
 lastModDate: "2023-04-15"
 canonical: "https://balakumar.net.in/how-i-migrated-my-wordpress-blog-to-github-using-gatsby-and-netlify/"
 categories: 
-  - "nodejs"
-tags: 
-  - "blog"
+  - "WEB"
+  - "Blog"
+tags:
   - "github.io"
-  - "gatsby"
-  - "netlify"
+  - "Gatsby JS"
+  - "Netlify"
+  - "Nodejs"
+  - "Javascript"
+  - "ReactJS"
 ---
 
 Earlier I hosted my site in many hosting providers, been switching based on the cost at times :). After sometime I decided to reduce the cost and started looking for options, ended up moving to a static model using GitHub pages.

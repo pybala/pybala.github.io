@@ -3,9 +3,10 @@ title: "Script for installing specific version of Python in CentOS"
 date: "2017-10-24"
 canonical: "https://balakumar.net.in/script-for-installing-specific-version-of-python-in-centos/"
 categories: 
-  - "python"
+  - "Installation"
 tags: 
-  - "python"
+  - "Python"
+  - "CentOS"
 ---
 
 Please use the following script for installing a specific version of Python without affecting the global python installation. Then you can use Python **virtualenv** to have specific python version based on your project needs.

@@ -27,9 +27,9 @@ const AppCategoryCloud = () => {
 
     return (
       <div className="nav-tagcloud">
-        <span onClick={showTags} className="leftnav-link">Categories</span>
+        <span onClick={showTags} onKeyDown={showTags} className="leftnav-link">Categories</span>
         <div className="tagcloud-wrapper" style={{display: active ? 'block' : 'none' }}>
-            <span onClick={hideTags} class="tagcloud-close">×</span>
+            <span onClick={hideTags} onKeyDown={hideTags} class="tagcloud-close">×</span>
             <TagCloud
               minSize={12}
               maxSize={35}

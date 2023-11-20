@@ -3,14 +3,11 @@ title: "How to use token in Ajax in Concrete5"
 date: "2012-05-22"
 canonical: "https://balakumar.net.in/how-to-use-token-in-ajax-in-concrete5/"
 categories: 
-  - "ajax"
-  - "concrete5"
-  - "php"
+  - "WEB"
+  - "CMS"
 tags: 
-  - "ajax-2"
-  - "c5"
-  - "concrete5-2"
-  - "php"
+  - "PHP"
+  - "Concrete5"
 ---
 
 _**Client side**_

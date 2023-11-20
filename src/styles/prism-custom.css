@@ -22,8 +22,8 @@ pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
-	border: 1px solid #D3F4FF;
-	background-color: #F1FAFF;
+	border: 1px solid #a8d1df;
+	background-color: #f3f3f3;
 }
 
 pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,

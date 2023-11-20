@@ -3,11 +3,10 @@ title: "Creating a helper library in Laravel"
 date: "2016-05-27"
 canonical: "https://balakumar.net.in/creating-a-helper-library-in-laravel/"
 categories: 
-  - "laravel"
-  - "php"
+  - "WEB"
 tags: 
-  - "laravel"
-  - "php"
+  - "Laravel"
+  - "PHP"
 ---
 
 It is always a good practice to have helpers in the application to provide the common utils or anything related to your application in order to avoid redundant codes and better maintenance.

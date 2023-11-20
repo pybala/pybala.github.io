@@ -3,13 +3,12 @@ title: "PySpark - Sharing Spark context and Spark session across"
 date: "2019-01-29"
 canonical: "https://balakumar.net.in/pyspark-sharing-spark-context-and-spark-session-across/"
 categories: 
-  - "bigdata"
-  - "pyspark"
+  - "Data Engineering"
+  - "Big Data"
 tags: 
-  - "pyspark"
-  - "spark"
-  - "sparkcontext"
-  - "sparksession"
+  - "Spark"
+  - "PySpark"
+  - "Python"
 ---
 
 Many of you have wondered about sharing the same Spark context across scripts.

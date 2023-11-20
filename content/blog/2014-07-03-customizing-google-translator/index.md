@@ -3,11 +3,10 @@ title: "Customizing Google Translator"
 date: "2014-07-03"
 canonical: "https://balakumar.net.in/customizing-google-translator/"
 categories: 
-  - "js"
+  - "WEB"
 tags: 
-  - "google-translator"
-  - "javascript"
-  - "translator"
+  - "Google-Translator"
+  - "Javascript"
 ---
 
 To use Google Translator, add your website to [https://translate.google.com/manager/website/add](https://translate.google.com/manager/website/add)

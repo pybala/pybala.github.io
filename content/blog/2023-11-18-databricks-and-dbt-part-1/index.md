@@ -133,7 +133,7 @@ clean-targets:
 
 ## How DBT seed works
 
-I have created following schemas (databases) in Databricks
+I have created the following schemas (databases) in Databricks upfront before triggering the DBT commands.
 
 ```sql
 CREATE SCHEMA IF NOT EXISTS poc_bronze;
@@ -141,7 +141,7 @@ CREATE SCHEMA IF NOT EXISTS poc_silver;
 CREATE SCHEMA IF NOT EXISTS poc_gold;
 ```
 
-#### Changing default Schema (database)
+#### Changing the default Schema (database)
 
 By default, DBT generates the target schema which is the combination of target_schema (default schema defined in the profile) and custom_schema.
 Based on the config we defined for seeds, our expectation would be to create and load the data under the defined schema (ie poc_bronze).
@@ -287,7 +287,7 @@ dbt run
 
 #### Creating a Delta table using model
 
-![](./images/dbt-macro-custom-schema.png)
+![](./images/dbt-model-delta-table.png)
 
 Again run **dbt run** command to create the required delta table.
 

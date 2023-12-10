@@ -11,7 +11,7 @@ tags:
 
 Get the bigquery connector util from below article.
 
-http://www.balakumarp.net/2017/10/24/python-connecting-to-bigquery/
+https://balakumar.net.in/python-connecting-to-bigquery/
 
 Now lets create a new bigquery client utility script (**bigquery_client.py**) by using the connect service **bigquery_connect.py** base class.
 

@@ -296,6 +296,6 @@ Again run **dbt run** command to create the required delta table.
 ![](./images/databricks-catalog-3.png)
 
 
-Yo can find the source code in my repo https://github.com/pybala/dbt_databricks_poc.
+Source code for above POC is available in my repo https://github.com/pybala/dbt_databricks_poc.
 
-I will be covering basic data quality testing and incremental models in next set of articles.
+I will be covering basic data quality testing and incremental models in the next set of articles.

@@ -133,6 +133,13 @@ clean-targets:
 
 ## How DBT seed works
 
+Things that we should keep in mind while using seed
+
+- **dbt seed** is recommended only for smaller dataset, mainly for mapping.
+- Every time when we run seed command, it will recreate the table with new data.
+- Make sure you version control the seed files with proper data.
+- Because of above reasons, it is not recommended to use in production.
+
 I have created the following schemas (databases) in Databricks upfront before triggering the DBT commands.
 
 ```sql

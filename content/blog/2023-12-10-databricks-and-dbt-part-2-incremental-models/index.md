@@ -14,7 +14,7 @@ tags:
 Yo can refer this page (https://balakumar.net.in/databricks-and-dbt-part-1/) for basic usage of DBT for Databricks.
 
 
-## Types of incremental strategies suported in models
+## Types of incremental strategies supported in models
 
 - append
 - merge
@@ -243,3 +243,26 @@ WHERE
 The delta table in databricks, after running the above model.
 
 ![](./images/catalog-incremental-merge-3.png)
+
+
+#### Using post_hook to optimize Delta tables
+
+Both **pre_hook** and **post_hook** are very useful for performing **validations, optimizations and other performance and dependencies** related functionalities.
+
+For example, running OPTIMIZE for above model (delta table)
+
+```sql
+{{ 
+    config(
+        materialized = "incremental",
+        unique_key = ['order_id'],
+        incremental_strategy = "merge",
+        file_format = "delta",
+        post_hook=[
+            "OPTIMIZE {{ this }}",
+            "ANALYZE TABLE {{ this }} COMPUTE STATISTICS FOR ALL COLUMNS"
+        ]
+    ) 
+}}
+```
+

@@ -144,7 +144,16 @@ module.exports = {
         trackingIds: [
           process.env.GA_TRACKING_ID
         ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+          send_page_view: true // default appears to be false.
+        },
+        pluginConfig: {
+          head: true,
+        },
       },
+   
     },
 
     {

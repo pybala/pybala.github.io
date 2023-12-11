@@ -519,3 +519,17 @@ a:focus {
 .social-cont .linkedin-icon {
 	background: transparent url(../images/linkedin-icon.png) no-repeat 0 0;
 }
+
+/* Prism - syntax highlight override */
+.gatsby-highlight pre {
+  font-size: 0.9em
+}
+pre[class*="language-"] {
+  border: 1px solid #383a4233;
+}
+.line-numbers .line-numbers-rows {
+  width: 2.7em !important;
+  margin: 0 !important;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}

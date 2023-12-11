@@ -8,4 +8,8 @@ import "./src/styles/style.css"
 import "./src/styles/responsive.css"
 
 // Highlighting for code blocks
-import "./src/styles/prism-custom.css"
+// import "./src/styles/prism-custom.css"
+// import "./src/styles/prism-material-oceanic.css"
+// import "./src/styles/prism-lucario.css"
+import "./src/styles/prism-one-light.css"
+import "prismjs/plugins/line-numbers/prism-line-numbers.css"

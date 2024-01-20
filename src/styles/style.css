@@ -527,9 +527,9 @@ a:focus {
 pre[class*="language-"] {
   border: 1px solid #383a4233;
 }
-.line-numbers .line-numbers-rows {
+/* .line-numbers .line-numbers-rows {
   width: 2.7em !important;
   margin: 0 !important;
   padding-top: 1em;
   padding-bottom: 1em;
-}
+} */

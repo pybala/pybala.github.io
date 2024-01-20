@@ -1,7 +1,6 @@
 ---
 title: "Customizing Google Translator"
 date: "2014-07-03"
-canonical: "https://balakumar.net.in/customizing-google-translator/"
 categories: 
   - "web"
 tags: 

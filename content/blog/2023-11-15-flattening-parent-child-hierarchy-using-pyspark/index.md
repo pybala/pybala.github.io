@@ -2,7 +2,6 @@
 title: "Flattening Parent Child Hierarchy using PySpark"
 date: "2023-11-15"
 lastModDate: "2023-11-15"
-canonical: "https://balakumar.net.in/flattening-parent-child-hierarchy-using-pyspark/"
 categories: 
   - "data-engineering"
   - "bigdata"

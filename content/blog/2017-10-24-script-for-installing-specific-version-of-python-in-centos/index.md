@@ -1,7 +1,6 @@
 ---
 title: "Script for installing specific version of Python in CentOS"
 date: "2017-10-24"
-canonical: "https://balakumar.net.in/script-for-installing-specific-version-of-python-in-centos/"
 categories: 
   - "installation"
 tags: 

@@ -2,7 +2,6 @@
 title: "Databricks and DBT - Part 1"
 date: "2023-11-18"
 lastModDate: "2023-11-18"
-canonical: "https://balakumar.net.in/databricks-and-dbt-part-1/"
 categories: 
   - "data-engineering"
   - "big-data"

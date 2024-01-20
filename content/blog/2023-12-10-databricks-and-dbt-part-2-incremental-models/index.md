@@ -2,7 +2,6 @@
 title: "Databricks and DBT - Part 2 - Incremental Models"
 date: "2023-12-10"
 lastModDate: "2023-12-10"
-canonical: "https://balakumar.net.in/databricks-and-dbt-part-2-incremental-models/"
 categories: 
   - "data-engineering"
   - "big-data"

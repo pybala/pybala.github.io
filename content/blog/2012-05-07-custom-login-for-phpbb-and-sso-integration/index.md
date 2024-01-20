@@ -1,7 +1,6 @@
 ---
 title: "Custom login for phpBB and SSO integration"
 date: "2012-05-07"
-canonical: "https://balakumar.net.in/custom-login-for-phpbb-and-sso-integration/"
 categories: 
   - "web"
   - "forums"

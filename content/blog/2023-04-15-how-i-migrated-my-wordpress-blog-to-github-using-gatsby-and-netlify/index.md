@@ -2,7 +2,6 @@
 title: "How I migrated my Wordpress blog to GitHub using Gatsby and Netlify"
 date: "2023-04-15"
 lastModDate: "2023-04-15"
-canonical: "https://balakumar.net.in/how-i-migrated-my-wordpress-blog-to-github-using-gatsby-and-netlify/"
 categories: 
   - "web"
   - "blog"

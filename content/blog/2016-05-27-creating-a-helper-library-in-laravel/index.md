@@ -1,7 +1,6 @@
 ---
 title: "Creating a helper library in Laravel"
 date: "2016-05-27"
-canonical: "https://balakumar.net.in/creating-a-helper-library-in-laravel/"
 categories: 
   - "web"
 tags: 

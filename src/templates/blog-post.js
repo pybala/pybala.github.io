@@ -83,7 +83,6 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         tags
-        canonical
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
